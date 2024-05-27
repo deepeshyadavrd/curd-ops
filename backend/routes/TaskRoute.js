@@ -4,6 +4,8 @@ const {getTasks, saveTask, updateTask, deleteTask} = require("../controllers/Tas
 const router = Router()
 
 router.get("/get", getTasks);
-router.get("/save", saveTask);
+router.post("/save", saveTask);
+router.put("/update/:id", updateTask);
+router.delete("/delete/:id", deleteTask);
 
 module.exports = router;
