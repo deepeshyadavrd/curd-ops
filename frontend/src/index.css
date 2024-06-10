@@ -15,9 +15,9 @@ main{
   padding: 20px;
 }
 
-.input_hoder{
+.input_holder{
   display: flex;
-  gap:20px;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -38,7 +38,7 @@ li{
   justify-content: space-between;
 }
 
-.icon_hoder{
+.icon_holder{
   display: flex;
   gap: 10px;
 }

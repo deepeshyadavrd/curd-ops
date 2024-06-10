@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import List from "./components/List";
 
 const App = () => {
   const [input, setInput] = useState("")
@@ -11,7 +12,7 @@ const App = () => {
 
     </div>
     <ul>
-      <List />
+      <List task="something"/>
     </ul>
   </main>
   )
