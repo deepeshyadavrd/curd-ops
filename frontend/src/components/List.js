@@ -8,8 +8,8 @@ const List = ({id, task, setupdateUI, updateMode}) => {
     <li>
       {task}
       <div className="icon_holder">
-        <BiEditAlt />
-        <BsTrash />
+        <BiEditAlt className="icon"/>
+        <BsTrash className="icon"/>
       </div>
     </li>
   )

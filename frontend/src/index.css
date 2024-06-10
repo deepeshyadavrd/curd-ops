@@ -31,7 +31,7 @@ ul{
 }
 
 li{
-  background-color:white;
+  background-color:rgb(158, 158, 158);
   padding:15px;
   margin-bottom: 10px;
   display: flex;
@@ -41,4 +41,8 @@ li{
 .icon_holder{
   display: flex;
   gap: 10px;
+}
+
+.icon{
+  cursor: pointer;
 }
