@@ -17,7 +17,7 @@ const removeTask = () => {
     <li>
       {task}
       <div className="icon_holder">
-        <BiEditAlt className="icon"/>
+        <BiEditAlt className="icon" onClick={() => updateMode(id, task)}/>
         <BsTrash className="icon" onClick={removeTask} />
       </div>
     </li>
