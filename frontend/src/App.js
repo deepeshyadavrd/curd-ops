@@ -20,6 +20,7 @@ const App = () => {
     axios.post(`${baseURL}/save`, {task: input}).then((res) => {
       console.log(res.data);
       setInput("");
+      setUpdateUI((prevState) => !prevState)
     })
   }
   return( 
