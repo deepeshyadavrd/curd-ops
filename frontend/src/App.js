@@ -33,10 +33,10 @@ const App = () => {
 
   const updateTask = () => {
     axios.put(`${baseURL}/update/${updateId}`, {task:input}).then((res) => {
-      console.log(res.data)
-      setUpdateUI((prevState) => !prevState)
-      setUpdateId(null)
-      setInput("")
+      console.log(res.data);
+      setUpdateUI((prevState) => !prevState);
+      setUpdateId(null);
+      setInput("");
     })
   }
   return( 
