@@ -5,7 +5,6 @@ module.exports.getTasks = async (req, res) => {
     res.send(tasks)
 }
 
-
 module.exports.saveTask = (req, res) => {
     const {task} = req.body
 
